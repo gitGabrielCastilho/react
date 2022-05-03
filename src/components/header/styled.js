@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HeaderArea = styled.div`
 
 background-color:#FFF;
-height: 80px;
+height: 100px;
 border-bottom: 1px solid #CCC;
 position:fixed;
 top:0;
