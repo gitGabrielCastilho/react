@@ -1,10 +1,11 @@
+import React from "react";
 import { Route, Routes } from "react-router-dom"
-import { Home } from '../pages/home/home';
-import { About } from '../pages//about/about';
-import { NotFound } from '../pages/notfound/notfound';
-import { Planos } from '../pages/planos/planos';
-import { Dicas } from '../pages/dicas/dicas';
-import { Projetos } from '../pages/projetos/projetos';
+import { Home } from '../pages/home';
+import { About } from '../pages//about';
+import { NotFound } from '../pages/notfound';
+import { Planos } from '../pages/planos';
+import { Dicas } from '../pages/dicas';
+import { Projetos } from '../pages/projetos';
 
 export const Rotas = () => {
     return (
@@ -18,5 +19,6 @@ export const Rotas = () => {
             <Route path='*' element={<NotFound/>} />
         </Routes>
     
-    )
+    );
 }
+
