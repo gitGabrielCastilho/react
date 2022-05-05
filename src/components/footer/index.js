@@ -17,10 +17,10 @@ export const Footer = () => {
                 </div>
                 <div className='footer-img'>
                     <ul>
-                        <li><SiFacebook className="facebook redesocial"/> <a href="https://facebook.com/" target={"_blank"} >Facebook</a></li>
-                        <li><SiInstagram className="instagram redesocial"/><a href="https://instagram.com/" target={"_blank"}>Instagram</a></li>
-                        <li><SiPinterest className="pinterest redesocial"/><a href="https://pinterest.com/" target={"_blank"}>Pinterest</a></li>
-                        <li><SiTwitter className="twitter redesocial"/><a href="https://twitter.com/" target={"_blank"}>Twitter</a></li>
+                        <li><SiFacebook /> <a className="redesocial" href="https://facebook.com/" target={"_blank"} >Facebook</a></li>
+                        <li><SiInstagram /><a className="redesocial" href="https://instagram.com/" target={"_blank"}>Instagram</a></li>
+                        <li><SiPinterest /><a className="redesocial" href="https://pinterest.com/" target={"_blank"}>Pinterest</a></li>
+                        <li><SiTwitter /><a className="redesocial" href="https://twitter.com/" target={"_blank"}>Twitter</a></li>
                     </ul>
 
                 </div>

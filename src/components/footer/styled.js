@@ -3,9 +3,14 @@ import styled from 'styled-components';
 export const FooterArea = styled.div`
 
 background-color: #333;
+height:150px;
 
-
-
+.redesocial{
+    margin: 12px;
+        &: hover {
+            color:white;
+            border-bottom: 1px solid;}
+}
 .footer {
     color: #FFF;
     display: flex;

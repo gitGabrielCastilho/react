@@ -14,7 +14,7 @@ export const Header = () => {
               
 
                 <div className="logo">
-                    <Link to="/">HOME</Link>
+                    <li><Link to="/">HOME</Link></li>
                 </div>
 
                 <nav>     

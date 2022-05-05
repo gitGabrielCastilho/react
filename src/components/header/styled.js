@@ -26,17 +26,17 @@ a {
     text-decoration:none;
     color:#000;
     &: hover {
-            color:#999;
-        } 
+        color:#999;
+        border-bottom: 5px solid;}
 }
 
 .logo {
         flex:1;
         display:flex;
         align-items:center;
-        height: 80px;
-       
-
+        list-style:none;
+        
+      
     }
 
 nav {
@@ -58,13 +58,7 @@ nav {
         margin-left:20px;
         margin-right:20px; 
 
-        a {
-            color:#000; 
-            text-decoration:none;
-            font-size:14px;
-        
-        &: hover {
-            color:#999;
+      
         } 
         }
     }
