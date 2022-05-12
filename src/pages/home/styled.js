@@ -4,8 +4,8 @@ export const Container = styled.div`
 min-height: calc(100vh - 250px);
 width: 100%;
 margin-top: 100px;
-padding-left: 300px;
-padding-right: 300px;
+padding-left: 10%;
+padding-right: 10%;
 
 .h2 {
     font-size: 40px;
@@ -72,6 +72,39 @@ padding-right: 300px;
     border: none;   
 }
 
+.carousel {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.planos{
+    border-left: 3px solid #709071;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.projetos {
+    border-left: 3px solid #709071;
+    border-right: 3px solid #709071;
+    padding: 120px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.link1 {
+    
+    background-color: #709071;
+    padding: 15px;
+    
+}
+
 a {
     text-decoration:none;
     color:#000;
@@ -79,4 +112,12 @@ a {
     padding: 10px;
     &: hover {
         color:#999;}
+}
+
+.link {
+    border: none;
+    font-size: 20px;
+    alignt-text: center;
+}
+
 `;
