@@ -1,6 +1,6 @@
 import {Container} from './styled'; 
-import { Link } from 'react-router-dom';
 import React from "react";
+import { Link } from 'react-router-dom';
 import background from "../assets/bg.jpg";
 import f5 from '../assets/f5.jpg';
 import f2 from '../assets/f2.jpg';
@@ -35,22 +35,28 @@ export const Home = () => {
                 <div className='area1--img2' style={{ backgroundImage: `url(${f5})`}}></div>
                
             </section>
-            <section className='carousel'>
 
+            <section className='plan-dic'>
                 <div className='planos' style={{ backgroundImage: `url(${c1})`}}>
                     <button className="link1">
-                        <Link className="link" to={"/planos"} >plano do seu jeito</Link></button>
+                        <Link className="link" to={"/planos"} >Planos do seu <br></br> jeito!</Link></button>
                 </div>
 
-                <div className='projetos' style={{ backgroundImage: `url(${c2})`}}>
+                <div className='dicas' style={{ backgroundImage: `url(${c2})`}}>
                     <button className="link1">
-                        <Link className="link" to={"/projetos"}>projetos personalizado</Link></button>
+                        <Link className="link" to={"/dicas"}>Dicas Incriveis!</Link></button>
                 </div>
+            </section>
+            
+            <section className='carro'>
+
+                
 
             </section>
-
-        </Container>    
+        </Container>  
+          
     );
+    
 }
 
 export default Home;

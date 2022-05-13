@@ -4,8 +4,8 @@ export const Container = styled.div`
 min-height: calc(100vh - 250px);
 width: 100%;
 margin-top: 100px;
-padding-left: 10%;
-padding-right: 10%;
+padding-left: 5%;
+padding-right: 5%;
 
 .h2 {
     font-size: 40px;
@@ -72,37 +72,55 @@ padding-right: 10%;
     border: none;   
 }
 
-.carousel {
+.plan-dic {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+    background-color: #95bd9a;
+    height:500px;        
 }
 
 .planos{
-    border-left: 3px solid #709071;
+    padding: 150px;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items:center;
     justify-content: center;
+    margin: 20px;
+    transition: margin 0.5s;
+    border-radius:25px;
+    box-shadow: 3px 3px 15px ;
+    &: hover {
+        margin:5px; 
+        }
 }
 
-.projetos {
-    border-left: 3px solid #709071;
-    border-right: 3px solid #709071;
-    padding: 120px;
+.dicas {
+    padding: 150px;
     background-size: cover;
     background-position: center;
     display: flex;
     align-items:center;
     justify-content: center;
+    margin: 20px;
+    transition: margin 0.5s;
+    border-radius:25px;
+    box-shadow: 3px 3px 15px;
+    &: hover {
+        margin:5px;
+        }
 }
 
 .link1 {
     
     background-color: #709071;
-    padding: 15px;
-    
+    box-shadow: 3px 3px 15px;
+    border-radius: 15px;
+    border: none; 
+    text-align: center;
+    display: flex;
+    &: hover {
+        background-color:#3e523f;}   
 }
 
 a {
@@ -116,8 +134,15 @@ a {
 
 .link {
     border: none;
+    padding: 10px;
     font-size: 20px;
-    alignt-text: center;
+    color: white;
+    &: hover {
+        color:#999;}
 }
 
+
+.carro {
+    
+}
 `;

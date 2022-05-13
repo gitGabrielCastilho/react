@@ -1,4 +1,5 @@
 import './App.css';
+import React from 'react';
 import  { Rotas }  from './components/routes';
 import { Template } from './components/mainComponents';
 import Header from './components/header';
