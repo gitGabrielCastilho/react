@@ -1,11 +1,14 @@
 import {Container} from './styled'; 
-import React from "react";
 import { Link } from 'react-router-dom';
 import background from "../assets/bg.jpg";
 import f5 from '../assets/f5.jpg';
 import f2 from '../assets/f2.jpg';
 import c1 from '../assets/c1.jpg';
 import c2 from '../assets/c2.jpg';
+import React from "react";
+import { Carousel } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -47,12 +50,53 @@ export const Home = () => {
                         <Link className="link" to={"/dicas"}>Dicas Incriveis!</Link></button>
                 </div>
             </section>
-            
-            <section className='carro'>
+            <section className='carrossel'>
+            <Carousel variant="dark">
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    style={{height: 500}}
+                    src="https://mercadoeconsumo.com.br/wp-content/uploads/2019/09/Starbucks-diminui-proje%C3%A7%C3%B5es-de-crescimento-para-2020.jpg"
+                    alt="First slide"
+                    />
+                    <Carousel.Caption>
+                    <h3>First slide label</h3>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    style={{height: 500}}
+                    src="https://tribunapr.uol.com.br/wp-content/uploads/2021/09/16153606/starbucks-unsplash-angelica-reyes-970x550.jpg"
+                    alt="Second slide"
+                    />
 
-                
+                    <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    
+                    <img  
+                    className="d-block w-100"
+                    style={{height: 500}}
+                    src="https://tribunapr.uol.com.br/wp-content/uploads/2021/06/17123720/Starbucks-1-970x550.jpg" 
+                    alt="Third slide" 
+                    />
 
+                    <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+            </Carousel>
             </section>
+
+
+            
+          
         </Container>  
           
     );
