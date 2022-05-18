@@ -146,5 +146,37 @@ a {
 .carrossel {
     padding: 10px 0;
 }
+
+.sobre {
+    display: flex;
+    background-color: #3d734b;
+    align-items: center;
+    padding: 100px;
+}
+
+.imgA {
+    height: 300px;
+}
+
+.sobre--texto {
+    margin-left: 150px;
     
+}
+
+.sobre-botao {
+  margin-top: 50px;
+  margin-left: 50%;
+}
+
+h3, h8 {
+    color: white;
+    margin: 50px 0;
+    text-align: center;
+}
+
+
+.sobre--botao {
+    color: white;
+}
+
 `;

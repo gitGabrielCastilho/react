@@ -51,12 +51,12 @@ export const Home = () => {
                 </div>
             </section>
             <section className='carrossel'>
-            <Carousel variant="dark">
+            <Carousel>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    style={{height: 500}}
-                    src="https://mercadoeconsumo.com.br/wp-content/uploads/2019/09/Starbucks-diminui-proje%C3%A7%C3%B5es-de-crescimento-para-2020.jpg"
+                    style={{height: 600}}
+                    src="https://img.freepik.com/fotos-gratis/textura-de-parede-de-estuque-azul-marinho-de-relevo-decorativo-grunge-abstrato-fundo-colorido-aspero-de-angulo-amplo_1258-28311.jpg"
                     alt="First slide"
                     />
                     <Carousel.Caption>
@@ -67,8 +67,8 @@ export const Home = () => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    style={{height: 500}}
-                    src="https://tribunapr.uol.com.br/wp-content/uploads/2021/09/16153606/starbucks-unsplash-angelica-reyes-970x550.jpg"
+                    style={{height: 600}}
+                    src="https://cdn.pixabay.com/photo/2017/07/10/13/43/background-2490186_960_720.jpg"
                     alt="Second slide"
                     />
 
@@ -81,8 +81,8 @@ export const Home = () => {
                     
                     <img  
                     className="d-block w-100"
-                    style={{height: 500}}
-                    src="https://tribunapr.uol.com.br/wp-content/uploads/2021/06/17123720/Starbucks-1-970x550.jpg" 
+                    style={{height: 600}}
+                    src="https://besthqwallpapers.com/Uploads/15-4-2019/87548/thumb2-blue-stone-texture-4k-grunge-stone-backgrounds-macro.jpg" 
                     alt="Third slide" 
                     />
 
@@ -93,7 +93,28 @@ export const Home = () => {
                 </Carousel.Item>
             </Carousel>
             </section>
-
+            <section className='sobre'>
+                <div className='sobre--img'>
+                    <img  
+                        className="imgA"    
+                        src="https://toppng.com/uploads/preview/happy-person-11545688398rslqmyfw4g.png" 
+                        alt="" 
+                    />
+                </div>
+                <div className='sobre--texto'>
+                    <div>
+                    <h3>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                         ut labore et dolore magna aliqua.</h3> <h8> Ut enim ad minim veniam, quis nostrud exercitation 
+                         ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                         reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur 
+                         sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+                         est laborum."</h8>
+                    </div>
+                    <div className='sobre-botao'>
+                    <Link to={"/about"} className="sobre--botao">MAIS SOBRE MIM</Link>
+                    </div>
+                </div>
+            </section>
 
             
           
