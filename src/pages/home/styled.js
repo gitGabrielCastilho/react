@@ -165,7 +165,7 @@ a {
 
 .sobre-botao {
   margin-top: 50px;
-  margin-left: 50%;
+  margin-left: auto;
 }
 
 h3, h8 {
