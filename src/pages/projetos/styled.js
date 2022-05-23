@@ -9,16 +9,19 @@ margin-top: 100px;
 
 .todos {
     margin: 30px auto;
+    
 }
 
 .btprojeto {
     display: inline-block;
-    margin: 30px auto;
+    margin: 30px 540px;    
 }
 
 .bt {
     padding: 0 20px;
     border: 1px solid;
+    cursor: pointer;
+    
 }
 
 

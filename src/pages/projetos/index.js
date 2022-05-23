@@ -1,5 +1,9 @@
 import {Container} from './styled'; 
 import React, {useState} from "react";
+import {Jardim, Quarto, Sala, Cozinha} from './imgProjetos';
+import Todos from './imgProjetos';
+
+
 
 export const Projetos = () => {
     const [active, setActive] = useState("FirstCard")
@@ -14,12 +18,14 @@ export const Projetos = () => {
            <button onClick={()=> setActive("Card5")} className='bt'>Jardim</button>
        </nav>
        <div className='area--projeto'>
-           {active === "Card1" && <div> ISSO EH TODOS </div>}
-           {active === "Card2" && <div> ISSO EH SALA </div>}
-           {active === "Card3" && <div> ISSO EH COZINHA </div>}
-           {active === "Card4" && <div> ISSO EH QUARTO </div>}
-           {active === "Card5" && <div> ISSO EH JARDIM </div>}
+           {active === "Card1" && <Todos></Todos> }
+           {active === "Card2" && <Sala></Sala> }
+           {active === "Card3" && <Cozinha></Cozinha> }
+           {active === "Card4" && <Quarto></Quarto> }
+           {active === "Card5" && <Jardim></Jardim> }
+           
        </div>
+      
        </div>
         </Container>
     )
