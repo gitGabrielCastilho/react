@@ -1,12 +1,13 @@
 import {Container} from './styled'; 
 import React from "react";
+import Apps from './Apps';
 
-export const Projetos= () => {
+
+export const Projetos = () => {
+ 
     return (
         <Container>
-        <div className='p-4'>
-            pagina Projetos
-        </div>
+            <Apps/>
         </Container>
     )
 }
