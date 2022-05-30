@@ -13,6 +13,7 @@ padding-right: 5%;
     margin: 0;
 }
 
+
 .bar {
     background-color: #709071;
     width: 168px;
@@ -149,7 +150,7 @@ a {
 
 .sobre {
     display: flex;
-    background-color: #3d734b;
+    background-color: #4a7345;
     align-items: center;
     padding: 100px;
 }
@@ -169,7 +170,7 @@ a {
 }
 
 h3, h8 {
-    color: white;
+    
     margin: 50px 0;
     text-align: center;
 }
@@ -177,6 +178,15 @@ h3, h8 {
 
 .sobre--botao {
     color: white;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    border:none;
+}
+
+.d-block w-100 {
+    background-position: center;
+    background-size: cover;
 }
 
 `;

@@ -26,6 +26,7 @@ margin-top: 100px;
 .active {
 	font-weight: bold;
 	border-bottom: 1px solid #eee;
+
 }
 .container {
 	width: 80%;
@@ -40,6 +41,8 @@ margin-top: 100px;
 	margin: 5px;
 	border: 1px solid #ddd;
 	border-radius: 2px;
+  }
+	
 }
 
 .image {
@@ -48,4 +51,20 @@ margin-top: 100px;
 
 .App {
 	margin: 0 auto;
-}`
+}
+
+#myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+  }
+	  
+  #myImg:hover {opacity: 0.7;
+}
+	
+.sim {
+	transition: all 4s;
+	transition-delay: all 4s;
+}
+
+`

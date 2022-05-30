@@ -5,6 +5,9 @@ import f5 from '../assets/f5.jpg';
 import f2 from '../assets/f2.jpg';
 import c1 from '../assets/c1.jpg';
 import c2 from '../assets/c2.jpg';
+import bg2 from '../assets/bg2.jpg'
+import bg3 from '../assets/bg3.jpg'
+import bg4 from '../assets/bg4.jpg'
 import React from "react";
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -51,30 +54,30 @@ export const Home = () => {
                 </div>
             </section>
             <section className='carrossel'>
-            <Carousel>
+            <Carousel variant='dark'>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
                     style={{height: 600}}
-                    src="https://img.freepik.com/fotos-gratis/textura-de-parede-de-estuque-azul-marinho-de-relevo-decorativo-grunge-abstrato-fundo-colorido-aspero-de-angulo-amplo_1258-28311.jpg"
+                    src={bg2}
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3 className='h3c'>First slide label</h3>
+                    <p className='h3c'>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
                     style={{height: 600}}
-                    src="https://cdn.pixabay.com/photo/2017/07/10/13/43/background-2490186_960_720.jpg"
+                    src={bg3}
                     alt="Second slide"
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3 className='h3c'>Second slide label</h3>
+                    <p className='h3c'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -82,13 +85,13 @@ export const Home = () => {
                     <img  
                     className="d-block w-100"
                     style={{height: 600}}
-                    src="https://besthqwallpapers.com/Uploads/15-4-2019/87548/thumb2-blue-stone-texture-4k-grunge-stone-backgrounds-macro.jpg" 
+                    src={bg4}
                     alt="Third slide" 
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h3 className='h3c'>Third slide label</h3>
+                    <p className='h3c'>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

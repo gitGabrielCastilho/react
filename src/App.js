@@ -6,12 +6,15 @@ import Header from './components/header';
 import Footer from './components/footer';
 
 
+
 const App = () => {
   return (
 
         <Template>
           <Header/>
-          <Rotas/>
+         
+            <Rotas/>
+          
           <Footer/>
         </Template>
      
